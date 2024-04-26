@@ -1,272 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linkedim | Clone Practice</title>
-    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    
+   <div class="nav-container">
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png"></a>
 
-<nav class="navbar">
-    <div class="navbar-left">
-        <a href="index.html" class="logo"><img src="images/logo.png"></a>
-
-        <div class="searchbox">
-           <img src="images/search.png">
-           <input type="text" placeholder="Search...">
+            <div class="searchbox">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search...">
+            </div>
         </div>
-    </div>
-    <div class="navbar-center">
-        <ul>
-            <li><a class="active-link"><img src="images/home.png"><span>Home</span></a></li>
-            <li><a><img src="images/network.png"> <span>My Network</span></a></li>
-            <li><a><img src="images/jobs.png"> <span>Jobs</span></a></li>
-            <li><a><img src="images/message.png"> <span>Messaging</span></a></li>
-            <li><a><img src="images/notification.png"> <span>Notification</span></a></li>
-        </ul>
-    </div>
-    <div class="navbar-right">
-        <div class="online" onclick="togglemenu()">
-         <img src="images/user-1.jpg" class="nav-profile-img">
+        <div class="navbar-center">
+            <ul>
+                <li><a class="active-link"><img src="images/home.png"><span>Home</span></a></li>
+                <li><a><img src="images/network.png"> <span>My Network</span></a></li>
+                <li><a><img src="images/jobs.png"> <span>Jobs</span></a></li>
+                <li><a><img src="images/message.png"> <span>Messaging</span></a></li>
+                <li><a><img src="images/notification.png"> <span>Notification</span></a></li>
+            </ul>
         </div>
-    </div>
-
-     <div class="profile-menu-dropdown" id="profileMenu">
-        <div class="profile-menu">
-            <div class="user-info">
-                <img src="images/user-1.jpg">
-                <div>
-                    <h3>Arslan Shahid</h3>
-                    <a href="">See your profile</a>
-                </div>
+        <div class="navbar-right">
+            <div class="online" onclick="togglemenu()">
+                <img src="images/user-1.jpg" class="nav-profile-img">
             </div>
-            <hr>
-            <a href="" class="profile-menu-link">
-                <img src="images/setting.png">
-                <p>Setting</p>
-                <span>></span>
-            </a>
-            <a href="" class="profile-menu-link">
-                <img src="images/feedback.png">
-                <p>Give Feedback</p>
-                <span>></span>
-            </a>
-            <a href="" class="profile-menu-link">
-                <img src="images/help.png">
-                <p>Help & Support</p>
-                <span>></span>
-            </a>
-            <a href="" class="profile-menu-link">
-                <img src="images/display.png">
-                <p>Display</p>
-                <span>></span>
-            </a>
-            <a href="" class="profile-menu-link">
-                <img src="images/logout.png">
-                <p>Logout</p>
-                <span>></span>
-            </a>
         </div>
-     </div>
-</nav>
-<!-- ------------------------- Top Navigation Navbar ended ----------------- -->
 
-   <div class="container">    
-    <div class="profile-main">
-          <div class="profile-container">
-             <img src="images/cover-pic.png" width="100%">
-              <div class="profile-container-inner">
-                 <img src="images/user-1.jpg" class="profile-pic">
-                  <h1>Arslan Shahid</h1>
-                  <b>Web Developer at Tetra Technologies | internee as a web development </b>
-                   <p>Lives in Pujab,Lahore Pakistan &middot; <a href="#">Contact info</a></p>
-                   <div class="mutual-connection">
-                       <img src="images/user-1.jpg" width="26px">
-                        <span>2 mutual connections: Ali & Mustafa</span>           
-                   </div>
-                   <div class="profile-btn">
-                      <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
-                      <a href="#"><img src="images/message.png">Message</a>
-                   </div>
-              </div>
-          </div>
-          <div class="profile-description">
-             <h2>About</h2>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sapiente, veritatis optio illo quia dolorum deserunt facilis totam
-                 quos atque aliquam repellendus beatae delectus hic ipsum, distinctio nobis officia mollitia.</p>
-                 <a href="#" class="see-more-link">Read More</a>
-          </div>
-          <div class="profile-description">
-            <h2>Experience</h2>
-            <div class="profile-experience">
-                <img src="images/microsoft.png" >
-                <div>
-                    <h3>Backend-frotnend developer</h3>
-                    <b>Microsoft &middot; Full TIME</b>
-                    <b>April 2024 - Present &middot;  1 month</b>
-                    <p>Dealing with the ui/ux & in backend development perfoming 
-                       as how much learn to do for it okay yeah its text </p>
-                       <hr>
+        <div class="profile-menu-dropdown" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.jpg">
+                    <div>
+                        <h3>Arslan Shahid</h3>
+                        <a href="">See your profile</a>
+                    </div>
                 </div>
+                <hr>
+                <a href="" class="profile-menu-link">
+                    <img src="images/setting.png">
+                    <p>Setting</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="images/display.png">
+                    <p>Display</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
             </div>
-            <div class="profile-experience">
-                <img src="images/slack.png" >
-                <div>
-                    <h3>Backend-frotnend developer</h3>
-                    <b>Slack &middot; Full TIME</b>
-                    <b>April 2024 - Present &middot;  1 month</b>
-                    <p>Dealing with the ui/ux & in backend development perfoming 
-                       as how much learn to do for it okay yeah its text </p>
-                       <hr>
-                </div>
-            </div>
-            <div class="profile-experience">
-                <img src="images/google.png" >
-                <div>
-                    <h3>Backend-frotnend developer</h3>
-                    <b>Google &middot; Full TIME</b>
-                    <b>April 2024 - Present &middot;  1 month</b>
-                    <p>Dealing with the ui/ux & in backend development perfoming 
-                       as how much learn to do for it okay yeah its text </p>
-                       <hr>
-                       <a href="" class="experience-link">Show all experieces<img src="images/right-arrow.png" alt=""></a>
-                </div>
-            </div>         
-          </div>
-
-          <div class="profile-description">
-            <h2>Education</h2>
-            <div class="profile-experience">
-                <img src="images/stanford.png">
-                <div>
-                    <h3>M.A.O</h3>
-                    <b>ICOM</b>
-                    <b>2018-2020</b>
-                    <hr>
-                </div>
-            </div>
-            <div class="profile-experience">
-                <img src="images/north.png">
-                <div>
-                    <h3>Corvit Systems</h3>
-                    <b>Web Development &middot; App Developemnt</b>
-                    <b>2020-2022</b>
-                    <hr>
-                </div>
-            </div>
-          </div>
-
-          <div class="profile-description">
-            <h2>Skills</h2>
-             <a href="" class="skills-btn">Web Developemnt</a>
-             <a href="" class="skills-btn">Ui/ux Designs</a>
-             <a href="" class="skills-btn">Backend Developemnt</a>
-             <a href="" class="skills-btn">Frontend Developemnt</a>
-             <a href="" class="skills-btn">Application Designer</a>
-             <a href="" class="skills-btn">Application Developemnt</a>
-             <a href="" class="skills-btn">Communication Skills</a>
-          </div>
-     <div class="profile-description">
-        <h2>Languages</h2>
-        <a href="" class="language-btn">English</a>
-        <a href="" class="language-btn">Urdu</a>
-        <a href="" class="language-btn">Punjabi</a>
-     </div>
-    </div>
-
-     <div class="profile-sidebar-right">
-        <div class="sidebar-ad">
-            <small>Ad &middot; &middot; &middot;</small>
-            <P>Professional in make website development </P>   
-              <div>
-                <img src="images/user-1.jpg" >
-                <img src="images/mi-logo.png" >
-              </div>
-              <b>Brand and Demand in Xiomi</b>
-              <a href="" class="ad-button">Learn more</a>
-          </div> 
-          <div class="sidebar-people">
-             <h3>People You May Know</h3>
-
-             <div class="sidebar-people-row">
-                <img src="images/user-1.jpg">
-                <div>
-                    <h2>Arslan Shahid</h2>
-                    <p>Web Developer at Tetra Technology</p>
-                    <a href="">Connect</a>
-                </div>
-             </div>
-             <div class="sidebar-people-row">
-                <img src="images/user-1.jpg">
-                <div>
-                    <h2>Arslan Shahid</h2>
-                    <p>Web Developer at Tetra Technology</p>
-                    <a href="">Connect</a>
-                </div>
-             </div>
-             <div class="sidebar-people-row">
-                <img src="images/user-1.jpg">
-                <div>
-                    <h2>Arslan Shahid</h2>
-                    <p>Web Developer at Tetra Technology</p>
-                    <a href="">Connect</a>
-                </div>
-             </div>
-             <div class="sidebar-people-row">
-                <img src="images/user-1.jpg">
-                <div>
-                    <h2>Arslan Shahid</h2>
-                    <p>Web Developer at Tetra Technology</p>
-                    <a href="">Connect</a>
-                </div>
-             </div>
-             <div class="sidebar-people-row">
-                <img src="images/user-1.jpg">
-                <div>
-                    <h2>Arslan Shahid</h2>
-                    <p>Web Developer at Tetra Technology</p>
-                    <a href="">Connect</a>
-                </div>
-             </div>
-             <div class="sidebar-people-row">
-                <img src="images/user-1.jpg">
-                <div>
-                    <h2>Arslan Shahid</h2>
-                    <p>Web Developer at Tetra Technology</p>
-                    <a href="">Connect</a>
-                </div>
-             </div>
-          </div>
-     </div>
+        </div>
+    </nav>
    </div>
-   
+    <!-- ------------------------- Top Navigation Navbar ended ----------------- -->
+
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover-pic.png" width="100%">
+                <div class="profile-container-inner">
+                    <img src="images/user-1.jpg" class="profile-pic">
+                    <h1>Arslan Shahid</h1>
+                    <b>Web Developer at Tetra Technologies | internee as a web development </b>
+                    <p>Lives in Pujab,Lahore Pakistan &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="images/user-1.jpg" width="26px">
+                        <span>2 mutual connections: Ali & Mustafa</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png">Connect</a>
+                        <a href="#"><img src="images/message.png">Message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sapiente, veritatis optio illo
+                    quia dolorum deserunt facilis totam
+                    quos atque aliquam repellendus beatae delectus hic ipsum, distinctio nobis officia mollitia.</p>
+                <a href="#" class="see-more-link">Read More</a>
+            </div>
+            <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-experience">
+                    <img src="images/microsoft.png">
+                    <div>
+                        <h3>Backend-frotnend developer</h3>
+                        <b>Microsoft &middot; Full TIME</b>
+                        <b>April 2024 - Present &middot; 1 month</b>
+                        <p>Dealing with the ui/ux & in backend development perfoming
+                            as how much learn to do for it okay yeah its text </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-experience">
+                    <img src="images/slack.png">
+                    <div>
+                        <h3>Backend-frotnend developer</h3>
+                        <b>Slack &middot; Full TIME</b>
+                        <b>April 2024 - Present &middot; 1 month</b>
+                        <p>Dealing with the ui/ux & in backend development perfoming
+                            as how much learn to do for it okay yeah its text </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-experience">
+                    <img src="images/google.png">
+                    <div>
+                        <h3>Backend-frotnend developer</h3>
+                        <b>Google &middot; Full TIME</b>
+                        <b>April 2024 - Present &middot; 1 month</b>
+                        <p>Dealing with the ui/ux & in backend development perfoming
+                            as how much learn to do for it okay yeah its text </p>
+                        <hr>
+                        <a href="" class="experience-link">Show all experieces<img src="images/right-arrow.png"
+                                alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-experience">
+                    <img src="images/stanford.png">
+                    <div>
+                        <h3>M.A.O</h3>
+                        <b>ICOM</b>
+                        <b>2018-2020</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-experience">
+                    <img src="images/north.png">
+                    <div>
+                        <h3>Corvit Systems</h3>
+                        <b>Web Development &middot; App Developemnt</b>
+                        <b>2020-2022</b>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="" class="skills-btn">Web Developemnt</a>
+                <a href="" class="skills-btn">Ui/ux Designs</a>
+                <a href="" class="skills-btn">Backend Developemnt</a>
+                <a href="" class="skills-btn">Frontend Developemnt</a>
+                <a href="" class="skills-btn">Application Designer</a>
+                <a href="" class="skills-btn">Application Developemnt</a>
+                <a href="" class="skills-btn">Communication Skills</a>
+            </div>
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="" class="language-btn">English</a>
+                <a href="" class="language-btn">Urdu</a>
+                <a href="" class="language-btn">Punjabi</a>
+            </div>
+        </div>
+
+        <div class="profile-sidebar-right">
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <P>Professional in make website development </P>
+                <div>
+                    <img src="images/user-1.jpg">
+                    <img src="images/mi-logo.png">
+                </div>
+                <b>Brand and Demand in Xiomi</b>
+                <a href="" class="ad-button">Learn more</a>
+            </div>
+            <div class="sidebar-people">
+                <h3>People You May Know</h3>
+
+                <div class="sidebar-people-row">
+                    <img src="images/user-1.jpg">
+                    <div>
+                        <h2>Arslan Shahid</h2>
+                        <p>Web Developer at Tetra Technology</p>
+                        <a href="">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/connect2.jpeg">
+                    <div>
+                        <h2>Qasim Ali khan</h2>
+                        <p>Web Developer at Tetra Technology</p>
+                        <a href="">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/connect3.jpeg">
+                    <div>
+                        <h2>Imran Khan</h2>
+                        <p>Web Developer at Tetra Technology</p>
+                        <a href="">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/connect4.jpeg">
+                    <div>
+                        <h2>Malaika Arora</h2>
+                        <p>Web Developer at Tetra Technology</p>
+                        <a href="">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/connect5.jpeg">
+                    <div>
+                        <h2>Ali</h2>
+                        <p>Web Developer at Tetra Technology</p>
+                        <a href="">Connect</a>
+                    </div>
+                </div>
+                <div class="sidebar-people-row">
+                    <img src="images/connect6.jpeg">
+                    <div>
+                        <h2>James Tun</h2>
+                        <p>Web Developer at Tetra Technology</p>
+                        <a href="">Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="profile-footer">
         <div class="sidebar-usefull-link">
-            <a href="">About  &middot;</a>
-            <a href="">Notification  &middot;</a>
-            <a href="">Privacy Policy  &middot;</a>
-            <a href="">Activity  &middot;</a>
-            <a href="">Terms & Conditions  &middot;</a>
-            <a href="">Help Center  &middot;</a>
+            <a href="">About &middot;</a>
+            <a href="">Notification &middot;</a>
+            <a href="">Privacy Policy &middot;</a>
+            <a href="">Activity &middot;</a>
+            <a href="">Terms & Conditions &middot;</a>
+            <a href="">Help Center &middot;</a>
             <a href="">Feeds</a>
-        </div> 
+        </div>
         <div class="copyright-msg">
             <img src="images/logo.png">
             <p>Linkedup &#169; 2024. Alll Right Reserved</p>
-      </div>
+        </div>
     </div>
-
-
-
-
-
-
-<script>
-  let profileMenu = document.getElementById("profileMenu");
-     function togglemenu(){
-         profileMenu.classList.toggle("open-menu");
-     }
-</script>
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function togglemenu() {
+            profileMenu.classList.toggle("open-menu");
+        }
+    </script>
 </body>
+
 </html>
